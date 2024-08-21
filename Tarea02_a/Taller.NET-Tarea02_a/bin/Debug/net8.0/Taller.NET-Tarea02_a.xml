@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Taller.NET-Tarea02_a</name>
+    </assembly>
+    <members>
+        <member name="M:Taller.NET_Tarea02_a.Controllers.TaskController.GetAllTasks">
+            <summary>
+            Obtiene todas las tareas del sistema
+            </summary>
+            <returns> Devuelve una lista de tareas </returns>
+            <response code="200"> Retorna una lista de todas las tareas</response>
+            <response code="404"> Si la lista de tareas esta vacía </response>
+        </member>
+        <member name="M:Taller.NET_Tarea02_a.Controllers.TaskController.GetTaskById(System.Int32)">
+            <summary>
+            Buscar tarea por id
+            </summary>
+            <param name="id"> Utiliza el identificador para buscar la tarea</param>
+            <returns>Devuelve una lista en particular </returns>
+            <response code="200"> Retorna una tarea </response>
+            <response code="404"> Si no se pudo encontrar la tarea </response>
+        </member>
+        <member name="M:Taller.NET_Tarea02_a.Controllers.TaskController.newTask(Taller.NET_Tarea02_a.Models.TaskClass)">
+             <summary>
+             Crear tarea
+             </summary>
+             <param name="task"> Utiliza los parametros del body para crear el objeto </param>
+             <returns>Una lista de tareas con la tarea agregada</returns>
+             <remarks>
+             Sample request:
+            
+                 {
+                    "id": 5,
+                    "name": "Revisar Tarea",
+                    "description": "Tareas de API's en .NET",
+                    "duration": 2,
+                    "responsible": "Gabriel",
+                    "creationDate": "2024-04-30"
+                 }
+            
+             </remarks>
+             <response code="200"> Retorna una lista de tarea, con la nueva tarea</response>
+             <response code="500"> Si no se pudo crear la tarea </response>
+        </member>
+        <member name="M:Taller.NET_Tarea02_a.Controllers.TaskController.DeleteTaskById(System.Int32)">
+            <summary>
+            Eliminar Tarea
+            </summary>
+            <param name="id">  Utiliza el identificador para buscar y eliminar la tarea </param>
+            <returns> Devuleve una lista de tareas, sin la tarea eliminada </returns>
+            <response code="200"> Retorna una lista de tareas con la tarea eliminada</response>
+            <response code="404"> Si no se pudo eliminar la tarea </response>
+        </member>
+    </members>
+</doc>
