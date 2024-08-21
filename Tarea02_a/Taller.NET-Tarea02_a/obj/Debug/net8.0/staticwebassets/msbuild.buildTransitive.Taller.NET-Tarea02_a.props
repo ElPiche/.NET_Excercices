@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Taller.NET-Tarea02_a.props" />
+</Project>

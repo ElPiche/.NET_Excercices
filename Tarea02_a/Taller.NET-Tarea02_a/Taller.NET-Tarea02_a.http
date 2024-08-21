@@ -1,0 +1,6 @@
+@Taller.NET_Tarea02_a_HostAddress = http://localhost:5106
+
+GET {{Taller.NET_Tarea02_a_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
