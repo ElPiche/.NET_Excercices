@@ -1,0 +1,30 @@
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.exe
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.deps.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.runtimeconfig.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.pdb
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.GeneratedMSBuildEditorConfig.editorconfig
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.AssemblyInfoInputs.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.AssemblyInfo.cs
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.csproj.CoreCompileInputs.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.sourcelink.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\refint\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.pdb
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.genruntimeconfig.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Repositorio .NET aramburu\TallerNET\01_02b_pipelinePattern\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\ref\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.exe
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.deps.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.runtimeconfig.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\bin\Debug\net8.0\01_02c_pipelineEstiloFuncional.pdb
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.GeneratedMSBuildEditorConfig.editorconfig
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.AssemblyInfoInputs.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.AssemblyInfo.cs
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.csproj.CoreCompileInputs.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.sourcelink.json
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\refint\01_02c_pipelineEstiloFuncional.dll
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.pdb
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\01_02c_pipelineEstiloFuncional.genruntimeconfig.cache
+E:\UTEC\6_Sexto_Semestre\Taller .NET\Taller.NetExcercices\Tarea02_b\01_02c_pipelineEstiloFuncional\obj\Debug\net8.0\ref\01_02c_pipelineEstiloFuncional.dll
