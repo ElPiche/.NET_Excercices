@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|e:\\utec\\6_sexto_semestre\\taller .net\\taller.netexcercices\\tarea02_c\\tarea02_c\\views\\book\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|solutionrelative:tarea02_c\\views\\book\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|e:\\utec\\6_sexto_semestre\\taller .net\\taller.netexcercices\\tarea02_c\\tarea02_c\\infraestructure\\bookrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|solutionrelative:tarea02_c\\infraestructure\\bookrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|e:\\utec\\6_sexto_semestre\\taller .net\\taller.netexcercices\\tarea02_c\\tarea02_c\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2233F226-D937-4384-AEED-40F7B5CFD6E4}|Tarea02_c\\Tarea02_c.csproj|solutionrelative:tarea02_c\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Tarea02_c\\Controllers\\BookController.cs",
+              "ToolTip": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Tarea02_c\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwG0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T03:49:05.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookRepositoryImpl.cs",
+              "DocumentMoniker": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Infraestructure\\BookRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "Tarea02_c\\Infraestructure\\BookRepositoryImpl.cs",
+              "ToolTip": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Infraestructure\\BookRepositoryImpl.cs",
+              "RelativeToolTip": "Tarea02_c\\Infraestructure\\BookRepositoryImpl.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:57:24.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditBook.cshtml",
+              "DocumentMoniker": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Views\\Book\\EditBook.cshtml",
+              "RelativeDocumentMoniker": "Tarea02_c\\Views\\Book\\EditBook.cshtml",
+              "ToolTip": "E:\\UTEC\\6_Sexto_Semestre\\Taller .NET\\Taller.NetExcercices\\Tarea02_c\\Tarea02_c\\Views\\Book\\EditBook.cshtml",
+              "RelativeToolTip": "Tarea02_c\\Views\\Book\\EditBook.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwB4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T22:45:18.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

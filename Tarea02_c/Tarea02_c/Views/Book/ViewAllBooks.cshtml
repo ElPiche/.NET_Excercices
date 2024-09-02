@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Tarea02_c.Models.Book>
+
+@{
+
+}
+
+<h1>List of registred books</h1>
+
+<p>
+    <a asp-action="CreateBook">Create new book</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Isbn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Isbn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                    <a asp-action="EditBook" asp-route-id="@item.Isbn">Edit</a> |
+                    <a asp-action="ViewBook" asp-route-id="@item.Isbn">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Isbn">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
