@@ -1,0 +1,17 @@
+﻿@page "/homePage"
+@inject NavigationManager nav
+
+@code {
+    private string email;
+
+    protected override void OnInitialized()
+    {
+        var uri = new Uri(nav.Uri);
+        var queryParams = System.Web.HttpUtility.ParseQueryString(uri.Query);
+        email = queryParams["email"];
+    }
+}
+
+<h3>Hola! @email, Bienvenido a la página de inicio</h3>
+
+

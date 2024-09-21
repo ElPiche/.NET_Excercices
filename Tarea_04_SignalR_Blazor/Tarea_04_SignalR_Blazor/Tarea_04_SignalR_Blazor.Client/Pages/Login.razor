@@ -1,0 +1,97 @@
+﻿@page "/login"
+@rendermode InteractiveWebAssembly
+@inject NavigationManager navManager
+
+
+<PageTitle> Login signalR </PageTitle>
+
+<h3>Login con SignalR</h3>
+
+
+<RadzenTemplateForm TItem="LoginModel" Data="@model" Submit="SubmitForm">
+    <RadzenTextBox Name="Email" @bind-Value="@model.Email" Placeholder="Email" Style="margin-bottom: 1rem;" Required="true" />
+    <RadzenTextBox Name="Password" @bind-Value="@model.Password" Placeholder="Password" Style="margin-bottom: 1rem;" Required="true" Password="true" />
+    <RadzenButton ButtonType="ButtonType.Submit" Style="margin-top: 1rem;"> Login  </RadzenButton>
+</RadzenTemplateForm>
+
+@if (showMessage)
+{
+    <p style="margin-top: 1rem; color: green;">Un correo ha sido enviado a su casilla, verificate para ingresar.</p>
+}
+
+@code{
+  
+    //modelo para obtener datos del form
+    private class LoginModel
+    {
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+
+    }
+
+    private LoginModel model = new LoginModel();
+    HubConnection? connection;
+    private bool showMessage = false;
+    private string message = string.Empty;
+
+    //conexion al hub
+    private async Task hubConnection()
+    {
+        //esto se connecta con mi endpoint en el program.cs del lado del servidor
+        //connection = new HubConnectionBuilder().WithUrl("/hubConnection").Build();
+        connection = new HubConnectionBuilder().WithUrl("https://localhost:7039/hubConnection").Build();
+
+        await connection.StartAsync();
+
+        Console.WriteLine("Conexion con el hub establecida");
+
+        //al recibir el mensaje "userVerifiedSuccesfully" desde el endpoint Login del program.cs
+        connection.On<string> ("userVerifiedSuccesfully", (string userId) =>
+        {
+            Console.WriteLine("Redirigiendo");
+            //redireccion en blazor
+            navManager.NavigateTo("https://localhost:7039/homePage?email=" + model.Email);
+        });
+    }
+
+    //para que mi funcion de conexion se ejecute al cargar la pagina.
+    protected override async Task OnInitializedAsync()
+    {
+        //tambien podria insertar la logica de la operacion hubConnection aca y tener una operacion sola.
+        await hubConnection();
+    }
+
+
+
+    //al subir el formulario aputar a la funcion Login de mi hub.
+    private async Task login(LoginModel model)
+    {
+        Console.WriteLine("Ejecutando funcion de login");
+        var email = model.Email;
+        var password = model.Password;
+        Console.WriteLine("email: " + email);
+        Console.WriteLine("password: " + password);
+        // Verificar si la conexión no es nula
+        if (connection != null)
+        {
+            // Función de Login en el hub
+            await connection.SendAsync("Login", email, password);
+            showMessage = true;
+        }
+        else
+        {
+            Console.WriteLine("Error: la conexión no está establecida.");
+        }
+
+    }
+
+    private async void SubmitForm()
+    {
+        Console.WriteLine("Subi el formulario");
+        await login(model);
+    }
+
+    
+}
+
+        
